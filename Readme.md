@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Никита](https://up.htmlacademy.ru/htmlcss/22/user/847157).
-* Наставник: `Неизвестно`.
+* Наставник: [Андрей Колесников](https://htmlacademy.ru/profile/m1roku).
 
 ---
 
