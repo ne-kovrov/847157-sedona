@@ -7,12 +7,12 @@
   <body>
     <header class="main-header">
       <nav class="main-navigation">
+        <a class="main-logo" href="index.html"><img src="img/index-logo.png" alt="Логотип города Sedona"></a>
         <ul class="site-navigation">
-          <li><a href="info.html">Информация</a></li>
-          <li><a href="video-photo.html">Фото и видео</a></li>
-          <li><a class="main-header-logo" href="index.html"><img src="img/index-logo.png" alt="Логотип города Sedona"></a></li>
-          <li><a href="map.html">Карта штата</a></li>
-          <li><a href="hosts.html">Гостиницы</a></li>
+          <li class="nav-item"><a href="info.html">Информация</a></li>
+          <li class="nav-item"><a href="video-photo.html">Фото и видео</a></li>
+          <li class="nav-item"><a href="map.html">Карта штата</a></li>
+          <li class="nav-item"><a href="hosts.html">Гостиницы</a></li>
         </ul>
       </nav>
       <main class="container">
@@ -48,24 +48,24 @@
         <section class="reasons">
           <img src="img/bridge.png" width="500" height="256" alt="Мост Дьявола">
           <h2>Там есть Мост дьявола</h2>
-          <p class="numder">№2</p>
+          <p class="number">№2</p>
           <p>Да, по нему можно пройти! Если конечно вы осмелитесь</p>
         </section>
         <section class="reasons-list">
           <ul class="reasons">
             <li class="reason-item">
                 <h2>Небольшая площадь</h2>
-                <p class="numder">№3</p>
+                <p class="number">№3</p>
                 <p>Все достопримечательности находятся очень близко</p>
             </li>
             <li class="reason-item">
                 <h2>Красивая дорога</h2>
-                <p class="numder">№4</p>
+                <p class="number">№4</p>
                 <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
             </li>
             <li class="reason-item">
                 <h2>Мало туристов</h2>
-                <p class="numder">№5</p>
+                <p class="number">№5</p>
                 <p>Большинство едет в гранд каньон и толпится там</p>
             </li>
           </ul>
@@ -74,6 +74,18 @@
           <h1>Заинтересовались?</h1>
           <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
           <h2>Поиск гостиницы в Седоне</h2>
+          <!--- Здесь будет форма -->
+          <form class="search" method="get" action="">
+            <label for="arrival"> Дата Заезда: </label>
+            <input type="datetime" id="arrival" name="arrival">
+            <label for="departure"> Дата выезда: </label>
+            <input type="datetime" id="departure" name="departure">
+            <label for="adults"> Взрослые: </label>
+            <input type="number" id="adults" name="adults">
+            <label for="children"> Дети: </label>
+            <input type="number" id="children" name="children">
+            <input type="submit" value="Найти">
+          </form>
           <!--- Здесь будет форма -->
         </section>
       </main>
